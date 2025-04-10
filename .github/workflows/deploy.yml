@@ -28,6 +28,8 @@ jobs:
           cd static-html
           npm install
           npm run build:css
+          # Create .nojekyll file to disable Jekyll processing
+          touch .nojekyll
         
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
