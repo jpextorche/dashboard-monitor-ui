@@ -5,6 +5,36 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+.loader {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.25rem solid #3b82f6;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
 /* Custom scrollbar styling */
 .custom-scrollbar {
   scrollbar-width: thin;
