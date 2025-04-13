@@ -1033,10 +1033,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1277,10 +1273,6 @@ video {
 
 .bg-system-secondary\/50 {
   background-color: rgb(30 41 59 / 0.5);
-}
-
-.bg-system-secondary\/70 {
-  background-color: rgb(30 41 59 / 0.7);
 }
 
 .bg-system-secondary\/80 {
